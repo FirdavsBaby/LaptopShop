@@ -1,0 +1,131 @@
+@media (max-width: $lg) {
+    .showcase .container {
+        width: $md - 20px;
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        gap: 50px;
+        img {
+            width: 50%;
+            height: auto;
+        }
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            width: 50%;
+            h1 {
+                font-size: 50px;
+            }
+            p {
+                text-align: end;
+                font-size: 25px;
+                color: gray;
+            }
+            .btn {
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                font-size: 30px;
+                color: white;
+                background-color: #146c14;
+                border-radius: 20px;
+                transition: all ease-in-out 0.3s;
+                &:hover {
+                    color: black;
+                    background-color: aqua;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $md) {
+    .showcase .container {
+        width: $sm - 20px;
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        gap: 50px;
+        img {
+            width: 50%;
+            height: auto;
+        }
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            width: 50%;
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                text-align: end;
+                font-size: 15px;
+                color: gray;
+            }
+            .btn {
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+                font-size: 20px;
+                color: white;
+                background-color: #146c14;
+                border-radius: 20px;
+                transition: all ease-in-out 0.3s;
+                &:hover {
+                    color: black;
+                    background-color: aqua;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    .showcase .container {
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        gap: 50px;
+        img {
+            width: 45%;
+            height: auto;
+        }
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            width: 50%;
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                text-align: end;
+                font-size: 8px;
+                color: gray;
+            }
+            .btn {
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+                font-size: 10px;
+                color: white;
+                background-color: #146c14;
+                border-radius: 20px;
+                transition: all ease-in-out 0.3s;
+                &:hover {
+                    color: black;
+                    background-color: aqua;
+
+                }
+            }
+        }
+    }
+}

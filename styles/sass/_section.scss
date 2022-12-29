@@ -1,0 +1,138 @@
+@media (max-width: $lg) {
+    section .container {
+        padding-top: 100px;
+        width: $md - 20px;
+        #type {
+            width: 100%;
+            border: 0;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+    }
+}
+@media (max-width: $md) {
+    section .container {
+        padding-top: 100px;
+        width: $sm - 20px;
+        #type {
+            width: 100%;
+            border: 0;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    section .container {
+        padding-top: 100px;
+        width: 100%;
+        #type {
+            width: 100%;
+            border: 0;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+    }
+}
+
+
+@media (max-width: $lg) {
+    section.container {
+        width: $md - 20px;
+        background-color: white;
+        min-height: 50vh;
+        padding: 10px;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        border-radius: 30px;
+        .card {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            box-shadow: 0 0 20px black;
+            border-radius: 30px;
+            padding: 10px 20px;
+            h3 {
+                font-size: 25px;
+            }
+            h4 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media (max-width: $md) {
+    section.container {
+        width: $sm - 20px;
+        background-color: white;
+        min-height: 50vh;
+        padding: 10px;
+        display: flex;
+        gap: 45px;
+        flex-wrap: wrap;
+        border-radius: 30px;
+        .card {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            box-shadow: 0 0 20px black;
+            border-radius: 30px;
+            padding: 10px 20px;
+            h3 {
+                font-size: 15px;
+            }
+            p {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    section.container {
+        width: 100%;
+        background-color: white;
+        min-height: 50vh;
+        padding: 10px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        border-radius: 30px;
+        .card {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            box-shadow: 0 0 20px black;
+            border-radius: 30px;
+            padding: 10px 20px;
+            h3 {
+                font-size: 15px;
+            }
+            p {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
