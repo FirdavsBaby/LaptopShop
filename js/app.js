@@ -19,6 +19,42 @@ let data = [
     price: 1150,
     imgs: "../imgs/B.jpg",
   },
+  {
+    id: 4,
+    title: "IdeaPad Gaming 3",
+    price: 749,
+    imgs: "../imgs/Idea_pad.jpg",
+  },
+  {
+    id: 5,
+    title: "HP Victus 16",
+    price: 799,
+    imgs: "../imgs/Victus_16.jpg",
+  },
+  {
+    id: 6,
+    title: "Asus Tuf A17",
+    price: 1200,
+    imgs: "../imgs/tuf_a17.jpg",
+  },
+  {
+    id: 7,
+    title: "Asus Tuf A15",
+    price: 920,
+    imgs: "../imgs/tuf_a15.jpg",
+  },
+  {
+    id: 8,
+    title: "HP Victus",
+    price: 900,
+    imgs: "../imgs/Victus.jpg",
+  },
+  {
+    id: 9,
+    title: "Asus Tuf F15",
+    price: 1010,
+    imgs: "../imgs/tuf_f15.jpg",
+  },
 ];
 
 function create(title, price, imgs) {
