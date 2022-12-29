@@ -361,6 +361,7 @@ a {
     box-shadow: 0 0 20px black;
     border-radius: 30px;
     padding: 10px 20px;
+    height: 370px;
   }
   section.container .card h3 {
     font-size: 25px;
