@@ -117,6 +117,7 @@
             box-shadow: 0 0 20px black;
             border-radius: 30px;
             padding: 10px 20px;
+            min-height: 550px;
             h3 {
                 font-size: 15px;
             }
@@ -130,7 +131,52 @@
     }
 }
 
+@media (max-width: $lg) {
+    section#about .container {
+        width: $md - 20px;
+        p {
+            color: wheat;
+        background: linear-gradient(45deg, gray, aqua);
+        padding: 20px;
+        &::selection {
+            background-color: #419b9b;
+            color: black;
+        }
+        }
+    }
+}
 
+@media (max-width: $md) {
+    section#about .container {
+        width: $sm - 20px;
+        p {
+            color: wheat;
+        background: linear-gradient(45deg, gray, aqua);
+        padding: 20px;
+        font-size: 13px;
+        &::selection {
+            background-color: #419b9b;
+            color: black;
+        }
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    section#about .container {
+        width:100%;
+        p {
+            color: wheat;
+        background: linear-gradient(45deg, gray, aqua);
+        padding: 20px;
+        font-size: 10px;
+        &::selection {
+            background-color: #419b9b;
+            color: black;
+        }
+        }
+    }
+}
 
 
 

@@ -419,6 +419,7 @@ a {
     box-shadow: 0 0 20px black;
     border-radius: 30px;
     padding: 10px 20px;
+    min-height: 550px;
   }
   section.container .card h3 {
     font-size: 15px;
@@ -428,5 +429,138 @@ a {
   }
   section.container .card h4 {
     font-size: 13px;
+  }
+}
+@media (max-width: 1400px) {
+  section#about .container {
+    width: 880px;
+  }
+  section#about .container p {
+    color: wheat;
+    background: linear-gradient(45deg, gray, aqua);
+    padding: 20px;
+  }
+  section#about .container p::-moz-selection {
+    background-color: #419b9b;
+    color: black;
+  }
+  section#about .container p::selection {
+    background-color: #419b9b;
+    color: black;
+  }
+}
+@media (max-width: 900px) {
+  section#about .container {
+    width: 480px;
+  }
+  section#about .container p {
+    color: wheat;
+    background: linear-gradient(45deg, gray, aqua);
+    padding: 20px;
+    font-size: 13px;
+  }
+  section#about .container p::-moz-selection {
+    background-color: #419b9b;
+    color: black;
+  }
+  section#about .container p::selection {
+    background-color: #419b9b;
+    color: black;
+  }
+}
+@media (max-width: 500px) {
+  section#about .container {
+    width: 100%;
+  }
+  section#about .container p {
+    color: wheat;
+    background: linear-gradient(45deg, gray, aqua);
+    padding: 20px;
+    font-size: 10px;
+  }
+  section#about .container p::-moz-selection {
+    background-color: #419b9b;
+    color: black;
+  }
+  section#about .container p::selection {
+    background-color: #419b9b;
+    color: black;
+  }
+}
+@media (max-width: 1400px) {
+  footer.container {
+    width: 880px;
+    background-color: white;
+    bottom: 0;
+    left: 235px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+  }
+  footer.container a {
+    width: 10%;
+  }
+  footer.container ul {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer.container p {
+    width: 30%;
+    font-size: 12px;
+    color: gray;
+  }
+}
+@media (max-width: 900px) {
+  footer.container {
+    width: 480px;
+    background-color: white;
+    bottom: 0;
+    left: 187px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+  }
+  footer.container a {
+    width: 10%;
+  }
+  footer.container ul {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10px;
+  }
+  footer.container p {
+    width: 30%;
+    font-size: 7px;
+    color: gray;
+  }
+}
+@media (max-width: 500px) {
+  footer.container {
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+    left: 187px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+  }
+  footer.container a {
+    width: 10%;
+  }
+  footer.container ul {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10px;
+  }
+  footer.container p {
+    width: 30%;
+    font-size: 7px;
+    color: gray;
   }
 }/*# sourceMappingURL=main.css.map */
