@@ -9,6 +9,13 @@
             font-size: 20px;
             border-radius: 30px;
         }
+        #type_core {
+            width: 100%;
+            border: 0;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
     }
 }
 @media (max-width: $md) {
@@ -58,7 +65,7 @@
             box-shadow: 0 0 20px black;
             border-radius: 30px;
             padding: 10px 20px;
-            height: 370px;
+            min-height: 360px;
             h3 {
                 font-size: 25px;
             }
@@ -117,7 +124,7 @@
             box-shadow: 0 0 20px black;
             border-radius: 30px;
             padding: 10px 20px;
-            min-height: 550px;
+            min-height: 580px;
             h3 {
                 font-size: 15px;
             }

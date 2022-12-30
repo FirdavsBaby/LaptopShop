@@ -42,15 +42,15 @@ a {
   nav.container .navigation-btn {
     width: 90%;
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     font-size: 16px;
   }
   nav.container .navigation-btn .navigation {
-    width: 60%;
+    width: 80%;
     display: flex;
-    gap: 20px;
+    gap: 15px;
   }
   nav.container .navigation-btn .navigation a {
     transition: 0.3s all ease-in-out;
@@ -88,17 +88,15 @@ a {
     width: 10%;
   }
   nav.container .navigation-btn {
-    width: 80%;
+    width: 100%;
     display: flex;
-    gap: 30px;
     align-items: center;
-    justify-content: flex-end;
     font-size: 8px;
   }
   nav.container .navigation-btn .navigation {
-    width: 90%;
+    width: 100%;
     display: flex;
-    gap: 5px;
+    justify-content: space-between;
   }
   nav.container .navigation-btn .navigation a {
     transition: 0.3s all ease-in-out;
@@ -148,7 +146,7 @@ a {
   nav.container .navigation-btn .navigation {
     width: 90%;
     display: flex;
-    gap: 5px;
+    gap: 10px;
   }
   nav.container .navigation-btn .navigation a {
     display: none;
@@ -158,6 +156,11 @@ a {
     border-bottom: 1px solid aqua;
   }
   nav.container .navigation-btn .navigation .search {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  nav.container .navigation-btn .navigation .search_processors {
     display: flex;
     align-items: center;
     gap: 3px;
@@ -315,6 +318,13 @@ a {
     font-size: 20px;
     border-radius: 30px;
   }
+  section .container #type_core {
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+  }
 }
 @media (max-width: 900px) {
   section .container {
@@ -361,7 +371,7 @@ a {
     box-shadow: 0 0 20px black;
     border-radius: 30px;
     padding: 10px 20px;
-    height: 370px;
+    min-height: 360px;
   }
   section.container .card h3 {
     font-size: 25px;
@@ -419,7 +429,7 @@ a {
     box-shadow: 0 0 20px black;
     border-radius: 30px;
     padding: 10px 20px;
-    min-height: 550px;
+    min-height: 580px;
   }
   section.container .card h3 {
     font-size: 15px;
